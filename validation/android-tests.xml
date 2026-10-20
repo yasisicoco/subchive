@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.submate.AndroidIntegrationTest" tests="10" failures="0" errors="0" skipped="0" time="19.3" timestamp="2026-10-20T16:23:40" hostname="localhost">
+  <properties>
+    <property name="device" value="Moa_Test_API_34(AVD) - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="ownedCalendarSyncCreatesAndClearsEvents" classname="com.example.submate.AndroidIntegrationTest" time="0.46" />
+  <testcase name="notificationsOffDoesNotMarkOrPost" classname="com.example.submate.AndroidIntegrationTest" time="0.021" />
+  <testcase name="workerPostsNotificationOnlyOncePerDueKey" classname="com.example.submate.AndroidIntegrationTest" time="0.056" />
+  <testcase name="createEditPauseDeleteAndNavigate" classname="com.example.submate.AppFlowTest" time="14.058" />
+  <testcase name="bundledModelsReadReceiptWithoutUserMedia" classname="com.example.submate.ReceiptScannerTest" time="2.907" />
+  <testcase name="invalidBackupDoesNotPartiallyInsert" classname="com.example.submate.RepositoryTest" time="0.034" />
+  <testcase name="persistedCreateUpdateDelete" classname="com.example.submate.RepositoryTest" time="0.061" />
+  <testcase name="backupRoundTripsAndAppends" classname="com.example.submate.RepositoryTest" time="0.082" />
+  <testcase name="changingSubscriptionResetsReminderKey" classname="com.example.submate.RepositoryTest" time="0.03" />
+  <testcase name="blocksNonWebCancelLinks" classname="com.example.submate.RepositoryTest" time="0.057" />
+</testsuite>

@@ -1,0 +1,151 @@
+{
+  "retrieved": "2026-10-20",
+  "icons": [
+    {
+      "key": "netflix",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/netflix.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/netflix.png",
+      "sha256": "f6fd02b1c4823ceb7d0782134d48f1ca0e418aff71f9fb0e84f09626c3566746",
+      "bytes": 10112,
+      "modified": false
+    },
+    {
+      "key": "youtube",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/youtube.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/youtube.png",
+      "sha256": "21712266fd01c447e36b4461ff86124735c483c8921252c011f0a43547031552",
+      "bytes": 11876,
+      "modified": false
+    },
+    {
+      "key": "disney",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/disney-plus.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/disney-plus.png",
+      "sha256": "43cda8df5e8efe8450d633efb39450b467910ea8f8d4a4ece1ee0185d3a1895e",
+      "bytes": 27682,
+      "modified": false
+    },
+    {
+      "key": "tving",
+      "source": "https://play.google.com/store/apps/details?id=net.cj.cjhv.gs.tving&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/WGS0wjBd0e09Sh7aDvcor-1-38gBDh9H7N0YBpseFaTnIqdDzH5shMDhHmm-A5yWW-Iq0Lh5X9IaL5uATjObwF0=s256",
+      "sha256": "735a6688672f6dfc8485ff00cc716c7be698604a1ce721e869fcd6855f9f5890",
+      "bytes": 3990,
+      "modified": false
+    },
+    {
+      "key": "wavve",
+      "source": "https://play.google.com/store/apps/details?id=kr.co.captv.pooqV2&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/jiuEpYJ4kVy3pRKxpq_1iE8XsN3gjYkmE4qtjAamnb3smpCob9ckw02S6FEtTEae6-2pMgVXu2cJ8QGM4_-x=s256",
+      "sha256": "d05956bfbd8ab580d19bddaf557739c380d70f2ff727ab41ee2a25bc844c43e5",
+      "bytes": 1759,
+      "modified": false
+    },
+    {
+      "key": "coupangplay",
+      "source": "https://play.google.com/store/apps/details?id=com.coupang.mobile.play&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/MZTNRT1f0JCQyaHzR_INhwDTtedWE-rGO8BSi4ivIwxDCh56GsfFgy0DaQpIARkH7byiHK63brvDNQ1vMmCb=s256",
+      "sha256": "65d64581194eb039a9316d7f0bdc352c30cf072e82eefa29d6ba0b2a357231b6",
+      "bytes": 14517,
+      "modified": false
+    },
+    {
+      "key": "spotify",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/spotify.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/spotify.png",
+      "sha256": "253d15d7551c4fd34d525965023dd4cd2f5db0d2f5f05497d59015017d5d079a",
+      "bytes": 25048,
+      "modified": false
+    },
+    {
+      "key": "applemusic",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/apple-music.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/apple-music.png",
+      "sha256": "652a8e8c3d7b1a0ec631512b2931f68704901d78f2e4b7a6e04b38e41b9a3ef7",
+      "bytes": 13542,
+      "modified": false
+    },
+    {
+      "key": "melon",
+      "source": "https://play.google.com/store/apps/details?id=com.iloen.melon&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/i9PtrASjou4ufUCK4BIUdo7m2mQpCKHpWyhNkSAcHKoGbZ1UeDgCLRJyHqm_q6fCaC5F2_WOvO6WCShQETcVNQ=s256",
+      "sha256": "2dd745a1ce83b56b99a714a2624266091bed28bb33a166d64c35e7db6300a877",
+      "bytes": 7133,
+      "modified": false
+    },
+    {
+      "key": "chatgpt",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/chatgpt.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/chatgpt.png",
+      "sha256": "4e881a7f017181681438748d2409240a104e1764860847b49e894afac032f5ad",
+      "bytes": 34707,
+      "modified": false
+    },
+    {
+      "key": "claude",
+      "source": "https://play.google.com/store/apps/details?id=com.anthropic.claude&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/YeFCFSW5LkBVdsEAL_fjzxDxTbhKz31j1uZUfDbSaCeM0t4Bi3SqyHTWzWsUsZnbwjofXhYajitG_gr2_B2xil8=s256",
+      "sha256": "2f6b4c56ef116d4e72ae4b3ca1593124dc8010342c80f5b60c7cbdb74dc1e3d4",
+      "bytes": 21418,
+      "modified": false
+    },
+    {
+      "key": "notion",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/notion.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/notion.png",
+      "sha256": "385d360e996dc36bb5967ee3eeb1bdb21b69fecb74b0784c53574156a973f6f1",
+      "bytes": 19684,
+      "modified": false
+    },
+    {
+      "key": "microsoft",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/microsoft-365.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/microsoft-365.png",
+      "sha256": "75b277e813a08e993376b567b848d9dff5511847ac590c4cad06ac874e491041",
+      "bytes": 78368,
+      "modified": false
+    },
+    {
+      "key": "icloud",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/icloud.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/icloud.png",
+      "sha256": "dd2f6dacea58c43e85840a0302e6302f95665bcef345dddfa019c4282b529edf",
+      "bytes": 22269,
+      "modified": false
+    },
+    {
+      "key": "googleone",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/google-one.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/google-one.png",
+      "sha256": "bd8c8029c283e2217eb03cb3752c875b72bc1eca9f5a79fd1b40d00836b8e686",
+      "bytes": 10520,
+      "modified": false
+    },
+    {
+      "key": "coupang",
+      "source": "https://play.google.com/store/apps/details?id=com.coupang.mobile&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/BneDL51Zx2_hR5SfhGJHw2PUDpgrNiedy6TbjP3ZAm4sOjZLnQNfOaiTiyPVhTmKFtjUAFAxlU6YQhNDjCiwm40=s256",
+      "sha256": "61554e5e2c7fe1bc3538cc8c0201fbc6ead0c092f05b44a1619ab1de3792536f",
+      "bytes": 11880,
+      "modified": false,
+      "variant": "Parent service app icon identifying its membership service"
+    },
+    {
+      "key": "naver",
+      "source": "https://play.google.com/store/apps/details?id=com.nhn.android.search&hl=ko",
+      "download": "https://play-lh.googleusercontent.com/8g15G46I-P4wZRcQqX---TMMia5yzpXJLPBh2TWhwbD1zb7AvhMuTc05OZZfnVzXZxOtxLuU6d1G9JKCRUCdnQ=s256",
+      "sha256": "129cac29752917498dffaf066092273f8289be2a9a9efc5a70887abede93fdc6",
+      "bytes": 36104,
+      "modified": false,
+      "variant": "Parent service app icon identifying its membership service"
+    },
+    {
+      "key": "gamepass",
+      "source": "https://github.com/homarr-labs/dashboard-icons/blob/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/xbox-game-pass.png",
+      "download": "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/b409eb0d1fa960277f8510d3ae3a19093b910ca4/png/xbox-game-pass.png",
+      "sha256": "3a4682fb8b240fd364ac9f0dd8f726c25ef8dbce9925779a586101722960bf27",
+      "bytes": 29158,
+      "modified": false
+    }
+  ]
+}

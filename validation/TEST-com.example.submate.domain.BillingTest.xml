@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.submate.domain.BillingTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-10-20T16:22:33.769Z" hostname="ZINOOING" time="0.049">
+  <properties/>
+  <testcase name="yearlyIsDividedByTwelve" classname="com.example.submate.domain.BillingTest" time="0.007"/>
+  <testcase name="occurrencesRespectMonthBounds" classname="com.example.submate.domain.BillingTest" time="0.023"/>
+  <testcase name="futureSubscriptionDoesNotCreatePastHistory" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="backupDisplayAmountRoundTrips" classname="com.example.submate.domain.BillingTest" time="0.013"/>
+  <testcase name="rejectsFractionalCents" classname="com.example.submate.domain.BillingTest" time="0.002"/>
+  <testcase name="nonRenewingDoesNotGenerateFutureCharges" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="parsesKoreanWholeUnits" classname="com.example.submate.domain.BillingTest" time="0.001"/>
+  <testcase name="leapYearRecoversFebruary29" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="rejectsNonPositiveAndOverflow" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="rejectsFractionalWon" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="weeklyIsSevenDays" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="weeklyUsesFiftyTwoWeeks" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="monthEndKeepsOriginalAnchor" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="quarterlyAnchorSurvivesShortMonth" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="parsesDollarCentsExactly" classname="com.example.submate.domain.BillingTest" time="0.001"/>
+  <testcase name="overdueRecurringRollsForward" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <testcase name="dueTodayIsNotSkipped" classname="com.example.submate.domain.BillingTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

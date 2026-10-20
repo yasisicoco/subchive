@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-21",
+  "environment": "Windows x64, JDK 21, Android SDK 36; Android 14 API 34 emulator",
+  "builds": {
+    "debug": "passed",
+    "release_r8_unsigned": "passed"
+  },
+  "tests": [
+    {
+      "kind": "unit",
+      "name": "com.example.submate.domain.BillingTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "kind": "unit",
+      "name": "com.example.submate.domain.ReceiptParserTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "kind": "unit",
+      "name": "com.example.submate.domain.ReminderPolicyTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "kind": "android",
+      "name": "Android 14 emulator integration and UI tests",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "cases": [
+        {
+          "class": "com.example.submate.AndroidIntegrationTest",
+          "name": "ownedCalendarSyncCreatesAndClearsEvents"
+        },
+        {
+          "class": "com.example.submate.AndroidIntegrationTest",
+          "name": "notificationsOffDoesNotMarkOrPost"
+        },
+        {
+          "class": "com.example.submate.AndroidIntegrationTest",
+          "name": "workerPostsNotificationOnlyOncePerDueKey"
+        },
+        {
+          "class": "com.example.submate.AppFlowTest",
+          "name": "createEditPauseDeleteAndNavigate"
+        },
+        {
+          "class": "com.example.submate.ReceiptScannerTest",
+          "name": "bundledModelsReadReceiptWithoutUserMedia"
+        },
+        {
+          "class": "com.example.submate.RepositoryTest",
+          "name": "invalidBackupDoesNotPartiallyInsert"
+        },
+        {
+          "class": "com.example.submate.RepositoryTest",
+          "name": "persistedCreateUpdateDelete"
+        },
+        {
+          "class": "com.example.submate.RepositoryTest",
+          "name": "backupRoundTripsAndAppends"
+        },
+        {
+          "class": "com.example.submate.RepositoryTest",
+          "name": "changingSubscriptionResetsReminderKey"
+        },
+        {
+          "class": "com.example.submate.RepositoryTest",
+          "name": "blocksNonWebCancelLinks"
+        }
+      ]
+    }
+  ],
+  "lint": {
+    "errors": 0,
+    "warnings": 25,
+    "hints": 2,
+    "issues": [
+      {
+        "id": "AndroidGradlePluginVersion",
+        "severity": "Warning",
+        "message": "A newer version of Gradle than 8.14.3 is available: 8.14.6"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.compose:compose-bom than 2025.04.01 is available: 2026.09.00"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.activity:activity-compose than 1.10.1 is available: 1.13.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.navigation:navigation-compose than 2.8.9 is available: 2.10.2"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.9.0 is available: 2.11.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.9.0 is available: 2.11.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.room:room-runtime than 2.7.2 is available: 2.8.5"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.room:room-ktx than 2.7.2 is available: 2.8.5"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.room:room-compiler than 2.7.2 is available: 2.8.5"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.work:work-runtime-ktx than 2.10.2 is available: 2.12.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of com.google.android.gms:play-services-ads than 24.2.0 is available: 25.5.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of com.google.android.ump:user-messaging-platform than 3.2.0 is available: 4.0.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of com.android.billingclient:billing-ktx than 8.3.0 is available: 9.1.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.compose:compose-bom than 2025.04.01 is available: 2026.09.00"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.test:runner than 1.6.2 is available: 1.7.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.room:room-testing than 2.7.2 is available: 2.8.5"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.work:work-testing than 2.10.2 is available: 2.12.0"
+      },
+      {
+        "id": "GradleDependency",
+        "severity": "Warning",
+        "message": "A newer version of androidx.test:rules than 1.6.1 is available: 1.7.0"
+      },
+      {
+        "id": "NewerVersionAvailable",
+        "severity": "Warning",
+        "message": "A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.10.2 is available: 1.11.0"
+      },
+      {
+        "id": "NewerVersionAvailable",
+        "severity": "Warning",
+        "message": "A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-play-services than 1.10.2 is available: 1.11.0"
+      },
+      {
+        "id": "NewerVersionAvailable",
+        "severity": "Warning",
+        "message": "A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.10.2 is available: 1.11.0"
+      },
+      {
+        "id": "AutoboxingStateCreation",
+        "severity": "Hint",
+        "message": "Prefer `mutableLongStateOf` instead of `mutableStateOf`"
+      },
+      {
+        "id": "AutoboxingStateCreation",
+        "severity": "Hint",
+        "message": "Prefer `mutableLongStateOf` instead of `mutableStateOf`"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning",
+        "message": "Use the KTX extension function `String.toUri` instead?"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning",
+        "message": "Use the KTX extension function `SharedPreferences.edit` instead?"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning",
+        "message": "Use the KTX extension function `String.toUri` instead?"
+      }
+    ]
+  },
+  "apk": {
+    "file": "subchive-debug.apk",
+    "bytes": 67400560,
+    "sha256": "61d4128da7f39a8d9ca7334a0fdccabf34e0e69160348f40fb2d9713d876034c",
+    "signing": "Android debug key; apksigner verified APK Signature Scheme v2"
+  },
+  "limits": [
+    "Production ads and real Play purchases not exercised",
+    "Physical device camera, manufacturer background restrictions and exact notification timing not tested",
+    "Android 8/16 physical devices not tested",
+    "Runtime screenshots contain explicitly added sample subscriptions"
+  ]
+}
